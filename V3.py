@@ -3,9 +3,9 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
-np.random.seed(39)
-tf.random.set_random_seed(39)
-num_class = 4
+#np.random.seed(39)
+#tf.random.set_random_seed(39)
+num_class = 5
 diff = [[0, 2], [0, -2], [2, 0], [-2, 0], [2,2]]
 
 
